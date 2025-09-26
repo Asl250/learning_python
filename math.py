@@ -9,4 +9,4 @@ z = 5
 # result = min(x, y, z)
 
 
-print(result)
+# print(result)
