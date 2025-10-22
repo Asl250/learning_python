@@ -39,26 +39,26 @@
 
 
 #shopping card
-foods = []
-prices = []
-total = 0
-
-while True:
-    food = input('enter a food to buy (q to quit): ')
-    if food.lower() == 'q' :
-        break
-    else:
-        price = float(input(f'enter the price of {food}: $'))
-        foods.append(food)
-        prices.append(price)
-
-print('------Your card -------')
-
-for i in foods :
-    print(i, end=' ')
-
-for i in prices:
-    total += i
-
-print()
-print(f'your total is: ${total}', end=' ')
+# foods = []
+# prices = []
+# total = 0
+#
+# while True:
+#     food = input('enter a food to buy (q to quit): ')
+#     if food.lower() == 'q' :
+#         break
+#     else:
+#         price = float(input(f'enter the price of {food}: $'))
+#         foods.append(food)
+#         prices.append(price)
+#
+# print('------Your card -------')
+#
+# for i in foods :
+#     print(i, end=' ')
+#
+# for i in prices:
+#     total += i
+#
+# print()
+# print(f'your total is: ${total}', end=' ')
